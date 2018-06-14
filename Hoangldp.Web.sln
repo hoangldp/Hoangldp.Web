@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hoangldp.Web", "Hoangldp.Web\Hoangldp.Web.csproj", "{EEB13E6E-2F85-4012-BB83-FEFFBE21A567}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEB13E6E-2F85-4012-BB83-FEFFBE21A567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB13E6E-2F85-4012-BB83-FEFFBE21A567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB13E6E-2F85-4012-BB83-FEFFBE21A567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB13E6E-2F85-4012-BB83-FEFFBE21A567}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
