@@ -11,13 +11,22 @@
 # Note: This is only used by command line
 ###############################################################################
 #*.cs     diff=csharp
+*.cs    diff=csharp
+*.vb    diff=vb
+*.css   diff=css
+*.cpp   diff=cpp
+*.h     diff=cpp
+*.html  diff=html
+*.java  diff=java
+*.ruby  diff=ruby
+Gemfile diff=ruby
 
 ###############################################################################
 # Set the merge driver for project and solution files
 #
 # Merging from the command prompt will add diff markers to the files if there
 # are conflicts (Merging from VS is not affected by the settings below, in VS
-# the diff markers are never inserted). Diff markers may cause the following 
+# the diff markers are never inserted). Diff markers may cause the following
 # file extensions to fail to load in VS. An alternative would be to treat
 # these files as binary and thus will always conflict and require user
 # intervention with every merge. To do so, just uncomment the entries below
@@ -43,12 +52,25 @@
 #*.jpg   binary
 #*.png   binary
 #*.gif   binary
+*.ai    binary diff=exif
+*.bmp   binary diff=exif
+*.gif   binary diff=exif
+*.hqx   binary
+*.icns  binary
+*.ico   binary
+*.jpeg  binary diff=exif
+*.jpg   binary diff=exif
+*.png   binary diff=exif
+*.psd   binary diff=exif
+*.svg   text
+*.tif   binary diff=exif
+*.tiff  binary diff=exif
 
 ###############################################################################
 # diff behavior for common document formats
-# 
+#
 # Convert binary document formats to text before diffing them. This feature
-# is only available from the command line. Turn it on by uncommenting the 
+# is only available from the command line. Turn it on by uncommenting the
 # entries below.
 ###############################################################################
 #*.doc   diff=astextplain
@@ -61,3 +83,56 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+*.doc   binary diff=exif
+*.docx  binary diff=docx
+*.dot   binary diff=exif
+*.dotx  binary diff=exif
+*.xls   binary diff=exif
+*.xlsx  binary diff=exif
+*.xlt   binary diff=exif
+*.xltm  binary diff=exif
+*.odb   binary diff=exif
+*.odf   binary diff=exif
+*.odg   binary diff=exif
+*.odi   binary diff=exif
+*.odp   binary diff=exif
+*.ods   binary diff=exif
+*.odt   binary diff=odt
+*.otc   binary diff=exif
+*.otg   binary diff=exif
+*.oti   binary diff=exif
+*.otp   binary diff=exif
+*.ots   binary diff=exif
+*.ott   binary diff=exif
+*.pdf   binary diff=exif
+*.ppt   binary diff=exif
+*.pptx  binary diff=exif
+*.ps    binary diff=exif
+
+# Fonts
+*.eot   binary
+*.otf   binary diff=exif
+*.ttc   binary diff=exif
+*.ttf   binary diff=exif
+*.woff  binary
+*.woff2 binary
+
+# Audio Visual
+*.fla   binary diff=exif
+*.flv   binary diff=exif
+*.mov   binary diff=exif
+*.mp3   binary diff=exif
+*.mp4   binary diff=exif
+*.swf   binary diff=exif
+
+# Archives
+*.7z    binary
+*.cab   binary
+*.ear   binary
+*.gz    binary diff=exif
+*.jar   binary
+*.rar   binary diff=exif
+*.tar   binary
+*.tgz   binary
+*.war   binary
+*.zip   binary diff=exif
