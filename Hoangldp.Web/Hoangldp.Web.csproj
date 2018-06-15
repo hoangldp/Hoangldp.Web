@@ -118,7 +118,7 @@
     <Compile Include="Authentication\AuthenticatorManager.cs" />
     <Compile Include="Extenstion\AuthorizationContextExtenstion.cs" />
     <Compile Include="Extenstion\HttpContextBaseExtension.cs" />
-    <Compile Include="FrameworkDependencyRegistrar.cs" />
+    <Compile Include="WebDependencyRegistrar.cs" />
     <Compile Include="HoangldpApplication.cs" />
     <Compile Include="IRouteProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

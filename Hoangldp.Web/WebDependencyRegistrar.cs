@@ -7,7 +7,7 @@ using Hoangldp.Web.Finder;
 
 namespace Hoangldp.Web
 {
-    public class FrameworkDependencyRegistrar : IDependencyRegistrar
+    public class WebDependencyRegistrar : IDependencyRegistrar
     {
         public int Order => -1;
 
