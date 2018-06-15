@@ -1,12 +1,11 @@
 ﻿using Autofac;
-using Hoangldp.Core.Web.Authentication;
-using Hoangldp.Core.Web.Configuration;
-using Hoangldp.Core.Web.Data;
-using Hoangldp.Core.Web.Dependency;
-using Hoangldp.Core.Web.Finder;
-using Hoangldp.Web.Framework.Authentication;
+using Hoangldp.Web.Authentication;
+using Hoangldp.Web.Configuration;
+using Hoangldp.Web.Data;
+using Hoangldp.Web.Dependency;
+using Hoangldp.Web.Finder;
 
-namespace Hoangldp.Web.Framework
+namespace Hoangldp.Web
 {
     public class FrameworkDependencyRegistrar : IDependencyRegistrar
     {

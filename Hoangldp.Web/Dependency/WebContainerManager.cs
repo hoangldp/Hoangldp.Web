@@ -3,7 +3,7 @@ using Autofac.Core.Lifetime;
 using Autofac.Integration.Mvc;
 using System.Web;
 
-namespace Hoangldp.Core.Web.Dependency
+namespace Hoangldp.Web.Dependency
 {
     public class WebContainerManager : ContainerManager
     {

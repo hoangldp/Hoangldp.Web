@@ -1,9 +1,9 @@
-﻿using Hoangldp.Web.Framework.Extenstion;
+﻿using Hoangldp.Web.Extenstion;
 using System;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Hoangldp.Web.Framework.Attributes
+namespace Hoangldp.Web.Attributes
 {
     public abstract class AuthorizeBaseAttribute : AuthorizeAttribute
     {

@@ -5,7 +5,7 @@ using System.IO;
 using System.Reflection;
 using System.Text.RegularExpressions;
 
-namespace Hoangldp.Core.Web.Finder
+namespace Hoangldp.Web.Finder
 {
     /// <summary>
     /// Find all type in app domain.

@@ -2,7 +2,7 @@
 using System.Configuration;
 using System.Xml;
 
-namespace Hoangldp.Core.Web.Configuration
+namespace Hoangldp.Web.Configuration
 {
     /// <summary>
     /// Class config base.

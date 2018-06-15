@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace Hoangldp.Core.Web.Finder
+namespace Hoangldp.Web.Finder
 {
     /// <summary>
     /// Find type in application.

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using Autofac;
-using Hoangldp.Core.Web.Exception;
+using Hoangldp.Web.Exception;
 
-namespace Hoangldp.Core.Web.Dependency
+namespace Hoangldp.Web.Dependency
 {
     /// <summary>
     /// Container manangerment base.

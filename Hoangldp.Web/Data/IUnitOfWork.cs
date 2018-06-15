@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Data;
 
-namespace Hoangldp.Core.Web.Data
+namespace Hoangldp.Web.Data
 {
     /// <summary>
     /// IUnitOfWork.

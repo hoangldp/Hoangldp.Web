@@ -1,7 +1,7 @@
-﻿using Hoangldp.Core.Web.Engine;
-using Hoangldp.Core.Web.Finder;
-using Hoangldp.Web.Framework.Attributes;
-using Hoangldp.Web.Framework.Authentication;
+﻿using Hoangldp.Web.Engine;
+using Hoangldp.Web.Finder;
+using Hoangldp.Web.Attributes;
+using Hoangldp.Web.Authentication;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +11,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
 
-namespace Hoangldp.Web.Framework
+namespace Hoangldp.Web
 {
     public abstract class HoangldpApplication : HttpApplication
     {

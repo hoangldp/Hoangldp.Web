@@ -1,9 +1,9 @@
-﻿using Hoangldp.Core.Web.Engine;
-using Hoangldp.Core.Web.Finder;
+﻿using Hoangldp.Web.Engine;
+using Hoangldp.Web.Finder;
 using System;
 using System.Data.Entity;
 
-namespace Hoangldp.Core.Web.Data
+namespace Hoangldp.Web.Data
 {
     public abstract class DatabaseContext : DbContext, IDataContext
     {

@@ -1,10 +1,10 @@
-﻿using Hoangldp.Core.Web.Engine;
+﻿using Hoangldp.Web.Engine;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 
-namespace Hoangldp.Core.Web.Data
+namespace Hoangldp.Web.Data
 {
     /// <summary>
     /// BaseUnitOfWork.

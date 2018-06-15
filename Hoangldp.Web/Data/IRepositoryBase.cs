@@ -1,4 +1,4 @@
-﻿namespace Hoangldp.Core.Web.Data
+﻿namespace Hoangldp.Web.Data
 {
     /// <summary>
     /// Base for repository.

@@ -1,7 +1,7 @@
 ﻿using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration;
 
-namespace Hoangldp.Core.Web.Data
+namespace Hoangldp.Web.Data
 {
     public abstract class ModelBuilder<TEntity> : IModelBuilder where TEntity : class, IEntity, new()
     {

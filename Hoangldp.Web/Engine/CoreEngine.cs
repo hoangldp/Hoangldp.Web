@@ -4,11 +4,11 @@ using System.Linq;
 using System.Web.Mvc;
 using Autofac;
 using Autofac.Integration.Mvc;
-using Hoangldp.Core.Web.Configuration;
-using Hoangldp.Core.Web.Dependency;
-using Hoangldp.Core.Web.Finder;
+using Hoangldp.Web.Configuration;
+using Hoangldp.Web.Dependency;
+using Hoangldp.Web.Finder;
 
-namespace Hoangldp.Core.Web.Engine
+namespace Hoangldp.Web.Engine
 {
     public class CoreEngine : IEngine
     {

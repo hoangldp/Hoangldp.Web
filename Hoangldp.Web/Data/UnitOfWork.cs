@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
 
-namespace Hoangldp.Core.Web.Data
+namespace Hoangldp.Web.Data
 {
     /// <summary>
     /// UnitOfWork.

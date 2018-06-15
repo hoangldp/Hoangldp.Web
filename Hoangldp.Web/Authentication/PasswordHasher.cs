@@ -1,6 +1,6 @@
 ﻿using System.Web.Helpers;
 
-namespace Hoangldp.Core.Web.Authentication
+namespace Hoangldp.Web.Authentication
 {
     public class PasswordHasher : IPasswordHash
     {

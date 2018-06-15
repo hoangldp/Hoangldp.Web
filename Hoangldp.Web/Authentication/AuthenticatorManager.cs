@@ -2,10 +2,9 @@
 using System.Security.Cryptography;
 using System.Text;
 using System.Web;
-using Hoangldp.Core.Web.Authentication;
-using Hoangldp.Web.Framework.Extenstion;
+using Hoangldp.Web.Extenstion;
 
-namespace Hoangldp.Web.Framework.Authentication
+namespace Hoangldp.Web.Authentication
 {
     public class AuthenticatorManager<TUser> : IAuthenticatorManager<TUser>
         where TUser : class, IUser

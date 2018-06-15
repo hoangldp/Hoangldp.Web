@@ -1,8 +1,8 @@
 ﻿using Autofac;
-using Hoangldp.Core.Web.Configuration;
-using Hoangldp.Core.Web.Finder;
+using Hoangldp.Web.Configuration;
+using Hoangldp.Web.Finder;
 
-namespace Hoangldp.Core.Web.Dependency
+namespace Hoangldp.Web.Dependency
 {
     /// <summary>
     /// Define action to register dependency.

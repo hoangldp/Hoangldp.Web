@@ -1,4 +1,4 @@
-﻿namespace Hoangldp.Core.Web.Configuration
+﻿namespace Hoangldp.Web.Configuration
 {
     public class CoreConfig : ConfigBase
     {

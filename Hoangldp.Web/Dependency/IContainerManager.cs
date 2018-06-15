@@ -1,7 +1,7 @@
 ﻿using System;
 using Autofac;
 
-namespace Hoangldp.Core.Web.Dependency
+namespace Hoangldp.Web.Dependency
 {
     /// <summary>
     /// Container managerment.

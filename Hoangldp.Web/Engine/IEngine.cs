@@ -1,8 +1,8 @@
-﻿using Hoangldp.Core.Web.Configuration;
-using Hoangldp.Core.Web.Dependency;
+﻿using Hoangldp.Web.Configuration;
+using Hoangldp.Web.Dependency;
 using System;
 
-namespace Hoangldp.Core.Web.Engine
+namespace Hoangldp.Web.Engine
 {
     public interface IEngine
     {

@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace Hoangldp.Web.Framework.Extenstion
+namespace Hoangldp.Web.Extenstion
 {
     public static class AuthorizationContextExtenstion
     {

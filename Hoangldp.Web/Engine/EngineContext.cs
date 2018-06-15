@@ -1,8 +1,8 @@
-﻿using Hoangldp.Core.Web.Common;
-using Hoangldp.Core.Web.Configuration;
+﻿using Hoangldp.Web.Common;
+using Hoangldp.Web.Configuration;
 using System.Runtime.CompilerServices;
 
-namespace Hoangldp.Core.Web.Engine
+namespace Hoangldp.Web.Engine
 {
     /// <summary>
     /// A static class engine of core.

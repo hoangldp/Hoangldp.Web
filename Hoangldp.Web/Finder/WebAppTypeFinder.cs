@@ -1,11 +1,11 @@
-﻿using Hoangldp.Core.Web.Configuration;
+﻿using Hoangldp.Web.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Web;
 using System.Web.Hosting;
 
-namespace Hoangldp.Core.Web.Finder
+namespace Hoangldp.Web.Finder
 {
     /// <summary>
     /// Provides information about types in the current web application.

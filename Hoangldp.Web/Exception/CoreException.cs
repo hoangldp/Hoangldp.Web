@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace Hoangldp.Core.Web.Exception
+namespace Hoangldp.Web.Exception
 {
     /// <summary>
     /// Represents errors that occur during application execution.

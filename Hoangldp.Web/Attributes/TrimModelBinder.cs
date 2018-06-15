@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Web.Mvc;
 
-namespace Hoangldp.Web.Framework.Attributes
+namespace Hoangldp.Web.Attributes
 {
     public class TrimModelBinder : DefaultModelBinder
     {

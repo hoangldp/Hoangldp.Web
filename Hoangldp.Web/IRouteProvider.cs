@@ -1,6 +1,6 @@
 ﻿using System.Web.Routing;
 
-namespace Hoangldp.Web.Framework
+namespace Hoangldp.Web
 {
     public interface IRouteProvider
     {

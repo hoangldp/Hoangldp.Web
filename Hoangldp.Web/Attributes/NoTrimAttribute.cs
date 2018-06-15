@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Hoangldp.Web.Framework.Attributes
+namespace Hoangldp.Web.Attributes
 {
     [AttributeUsage(AttributeTargets.Property, AllowMultiple = false)]
     public class NoTrimAttribute : Attribute

@@ -1,6 +1,6 @@
 ﻿using System.Configuration;
 
-namespace Hoangldp.Core.Web.Configuration
+namespace Hoangldp.Web.Configuration
 {
     public static class ConfigContext
     {

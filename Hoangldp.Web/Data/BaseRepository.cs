@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Hoangldp.Core.Web.Data
+namespace Hoangldp.Web.Data
 {
     public abstract class BaseRepository<TEntity> : IRepository<TEntity> where TEntity : IEntity, new()
     {

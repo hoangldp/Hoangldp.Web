@@ -1,4 +1,4 @@
-﻿namespace Hoangldp.Core.Web.Authentication
+﻿namespace Hoangldp.Web.Authentication
 {
     public interface IAuthenticatorManager<TUser>
         where TUser : class, IUser
