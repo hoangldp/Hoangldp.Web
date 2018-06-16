@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <configSections xdt:Transform="InsertIfMissing">
+    <sectionGroup name="base" xdt:Transform="InsertIfMissing">
+      <section name="core" type="Hoangldp.Web.Configuration.CoreConfig, Hoangldp.Web" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <base xdt:Transform="InsertIfMissing">
+    <core>
+      <lib_pattern value="^$RootNamespace$" xdt:Transform="InsertIfMissing" />
+    </core>
+  </base>
+</configuration>

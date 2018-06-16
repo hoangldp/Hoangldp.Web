@@ -4,21 +4,23 @@
     <!--*-->
     <id>Hoangldp.Web</id>
     <!--*-->
-    <version>0.0.1</version>
+    <version>0.0.1.1</version>
     <title>Hoangldp.Web</title>
     <!--*-->
     <authors>Hoangldp</authors>
     <owners>Hoangldp</owners>
     <!--
     <licenseUrl></licenseUrl>
-    <projectUrl></projectUrl>
+    -->
+    <projectUrl>https://github.com/hoangldp/Hoangldp.Web</projectUrl>
+    <!--
     <iconUrl></iconUrl>
 -->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--*-->
     <description>Framework asp.net mvc use autofac</description>
     <!--*-->
-    <releaseNotes>Release 2018/06/15 20:15</releaseNotes>
+    <releaseNotes>Add web.config</releaseNotes>
     <copyright>Copyright © 2018</copyright>
     <tags>Hoangldp,Web</tags>
     <dependencies>
@@ -27,4 +29,7 @@
 -->
     </dependencies>
   </metadata>
+  <files>
+    <file src="Web.config.install.xdt" target="content" />
+  </files>
 </package>
