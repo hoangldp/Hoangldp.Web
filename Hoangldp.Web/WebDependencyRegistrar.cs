@@ -14,8 +14,8 @@ namespace Hoangldp.Web
         public void Register(ContainerBuilder builder, ITypeFinder typeFinder, CoreConfig config)
         {
             builder.RegisterGeneric(typeof(Repository<>)).As(typeof(IRepository<>)).InstancePerLifetimeScope();
-            builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerMatchingLifetimeScope();
-            builder.RegisterType<PasswordHasher>().As<IPasswordHash>().InstancePerMatchingLifetimeScope();
+            builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerLifetimeScope();
+            builder.RegisterType<PasswordHasher>().As<IPasswordHash>().InstancePerLifetimeScope();
             builder.RegisterGeneric(typeof(AuthenticatorManager<>)).As(typeof(IAuthenticatorManager<>)).InstancePerLifetimeScope();
         }
     }

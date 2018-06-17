@@ -77,6 +77,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="content\App_Start\DependencyRegistrar.cs.pp" />
+    <None Include="content\App_Start\RouteConfig.cs.pp" />
     <Compile Include="Authentication\IAuthenticatorManager.cs" />
     <Compile Include="Authentication\IPasswordHash.cs" />
     <Compile Include="Authentication\IUser.cs" />
