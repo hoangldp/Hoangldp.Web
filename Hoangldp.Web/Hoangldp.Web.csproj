@@ -50,6 +50,7 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.6\lib\net45\System.Web.Helpers.dll</HintPath>
@@ -77,8 +78,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="content\App_Start\DependencyRegistrar.cs.pp" />
-    <None Include="content\App_Start\RouteConfig.cs.pp" />
+    <None Include="Content\App_Start\DependencyRegistrar.cs.pp" />
+    <None Include="Content\App_Start\RouteConfig.cs.pp" />
     <Compile Include="Authentication\IAuthenticatorManager.cs" />
     <Compile Include="Authentication\IPasswordHash.cs" />
     <Compile Include="Authentication\IUser.cs" />
@@ -88,6 +89,9 @@
     <Compile Include="Authentication\PasswordHasher.cs" />
     <Compile Include="Authentication\UserLoginService.cs" />
     <Compile Include="Authentication\UserLoginState.cs" />
+    <Compile Include="Caching\CacheExtensions.cs" />
+    <Compile Include="Caching\ICacheManager.cs" />
+    <Compile Include="Caching\MemoryCacheManager.cs" />
     <Compile Include="Common\Singleton.cs" />
     <Compile Include="Configuration\ConfigBase.cs" />
     <Compile Include="Configuration\ConfigContext.cs" />
@@ -111,6 +115,15 @@
     <Compile Include="Engine\CoreEngine.cs" />
     <Compile Include="Engine\EngineContext.cs" />
     <Compile Include="Engine\IEngine.cs" />
+    <Compile Include="Event\Data\EntityDeleted.cs" />
+    <Compile Include="Event\Data\EntityInserted.cs" />
+    <Compile Include="Event\Data\EntityUpdated.cs" />
+    <Compile Include="Event\EventPublisher.cs" />
+    <Compile Include="Event\EventPublisherExtensions.cs" />
+    <Compile Include="Event\IConsumer.cs" />
+    <Compile Include="Event\IEventPublisher.cs" />
+    <Compile Include="Event\ISubscriptionService.cs" />
+    <Compile Include="Event\SubscriptionService.cs" />
     <Compile Include="Exception\CoreException.cs" />
     <Compile Include="Finder\AppDomainTypeFinder.cs" />
     <Compile Include="Finder\ITypeFinder.cs" />
@@ -127,7 +140,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Web.config.install.xdt">
+    <None Include="Content\Web.config.install.xdt">
       <SubType>Designer</SubType>
     </None>
     <None Include="package.nuspec">

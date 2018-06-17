@@ -4,7 +4,7 @@
     <!--*-->
     <id>Hoangldp.Web</id>
     <!--*-->
-    <version>0.0.2</version>
+    <version>0.1.0</version>
     <title>Hoangldp.Web</title>
     <!--*-->
     <authors>Hoangldp</authors>
@@ -30,7 +30,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="content\**\*.pp" target="content" />
-    <file src="Web.config.install.xdt" target="content" />
+    <file src="Content\**\*.pp" target="content" />
+    <file src="Content\**\*.xdt" target="content" />
   </files>
 </package>
