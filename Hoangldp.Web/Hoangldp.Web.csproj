@@ -125,6 +125,7 @@
     <Compile Include="Event\ISubscriptionService.cs" />
     <Compile Include="Event\SubscriptionService.cs" />
     <Compile Include="Exception\CoreException.cs" />
+    <Compile Include="Extenstion\HttpRequestBaseExtension.cs" />
     <Compile Include="Finder\AppDomainTypeFinder.cs" />
     <Compile Include="Finder\ITypeFinder.cs" />
     <Compile Include="Finder\WebAppTypeFinder.cs" />
