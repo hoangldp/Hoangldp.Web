@@ -10,6 +10,7 @@ namespace Hoangldp.Web.Authentication
         where TUser : class, IUser
     {
         private const string KeyCookie = "_UserLogin";
+        private TUser _currentUser = null;
 
         protected IUserLoginService<TUser> UserLoginService { get; }
 
@@ -79,7 +80,11 @@ namespace Hoangldp.Web.Authentication
             string username = GetUsername();
             if (!string.IsNullOrEmpty(username))
             {
-                return UserLoginService.GetByUsername(username);
+                if (_currentUser == null)
+                {
+                    _currentUser = UserLoginService.GetByUsername(username);
+                }
+                return _currentUser;
             }
 
             return null;
